@@ -33,7 +33,7 @@
                 android:lineSpacingExtra="200dp" android:textSize="18sp" android:fontFamily="sans-serif-black"
                 android:textStyle="bold"/>
         <ImageButton
-
+                android:onClick="agregarganado"
                 android:layout_width="63dp"
                 android:translationY="1sp"
                 android:translationX="230sp"

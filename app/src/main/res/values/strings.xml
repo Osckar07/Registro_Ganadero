@@ -32,5 +32,12 @@
     <string name="BtnGuardarRegistro">Guardar</string>
     <string name="BtnAgg">BotonAg</string>
     <string name="TxtApodo">Apodo</string>
+    <string name="TxtSexo">Sexo:</string>
+    <string name="BtnMacho">Macho</string>
+    <string name="Btnsexo2">Hembra</string>
+    <string name="TxtRaza">Raza</string>
+    <string name="fecha">Fecha</string>
+    <string name="n_mero_del_animal">Número del Animal</string>
+    <string name="button">Guardar</string>
 
 </resources>

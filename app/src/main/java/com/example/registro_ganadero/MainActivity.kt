@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        TxtCorreo=findViewById(R. id. TxtCorreoElectronicoR)
-        TxtContraseña=findViewById(R. id. TxtContraseñaR)
+        TxtCorreo=findViewById(R. id. TxtCorreo)
+        TxtContraseña=findViewById(R. id. TxtContraseña)
         auth= FirebaseAuth.getInstance()
 
 

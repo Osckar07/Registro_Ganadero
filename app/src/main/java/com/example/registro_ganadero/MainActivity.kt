@@ -6,15 +6,13 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
 import android.widget.EditText
-import android.widget.TextClock
-import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var TxtCorreo: EditText
-    private lateinit var TxtContraseña: EditText
+    private lateinit var TxtContrasena: EditText
 
     private lateinit var auth: FirebaseAuth
 
@@ -23,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         TxtCorreo=findViewById(R. id. TxtCorreo)
-        TxtContraseña=findViewById(R. id. TxtContraseña)
+        TxtContrasena=findViewById(R. id. TxtContrasena)
         auth= FirebaseAuth.getInstance()
 
 
@@ -32,13 +30,13 @@ class MainActivity : AppCompatActivity() {
     fun Registo(view: View){
         startActivity(Intent( this,RegistroGanado::class.java))
     }
-    fun MainActivity(view: View){
+    fun login(view: View){
         loginUser()
 
     }
     private fun loginUser(){
         val user:String=TxtCorreo.text.toString()
-        val password:String=TxtContraseña.text.toString()
+        val password:String=TxtContrasena.text.toString()
 
         if (!TextUtils.isEmpty(user) && !TextUtils.isEmpty(password)) {
 
@@ -55,6 +53,11 @@ class MainActivity : AppCompatActivity() {
         }
     }
     private fun action (){
-        startActivity(Intent(this,MainActivity::class.java ))
+        startActivity(Intent(this,PantallaPrincipal::class.java ))
     }
-}
+    fun registrarse(view: View){
+        startActivity(Intent(this, Registo::class.java))
+    }
+
+    }
+

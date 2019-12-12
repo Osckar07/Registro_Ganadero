@@ -27,14 +27,16 @@
         <TextView
                 android:text="@string/ctrganadero"
                 android:translationY="15sp"
-                android:layout_width="269dp"
-                android:layout_height="wrap_content" android:id="@+id/textView2" android:textAlignment="center"
-                android:lineSpacingExtra="200dp" android:textSize="25sp" android:fontFamily="sans-serif-black"
+                android:layout_width="207dp"
+                android:layout_height="38dp" android:id="@+id/textView2" android:textAlignment="center"
+                android:lineSpacingExtra="200dp" android:textSize="18sp" android:fontFamily="sans-serif-black"
                 android:textStyle="bold"/>
         <ImageView
-                android:layout_width="72dp"
-                android:translationX="275sp"
-                android:layout_height="63dp" app:srcCompat="@drawable/vacamas" android:id="@+id/imageView6"
+                android:onClick="registrarg"
+                android:layout_width="68dp"
+                android:translationX="210sp"
+                android:translationY="5sp"
+                android:layout_height="47dp" app:srcCompat="@drawable/vacamas" android:id="@+id/imageView6"
                 android:contentDescription="@string/vacamas2"/>
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

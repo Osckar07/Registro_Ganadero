@@ -54,7 +54,7 @@
                 tools:targetApi="O"
                 android:hint="@string/textocontraseña"
                 android:translationY="150sp"
-                android:id="@+id/TxtContraseña"/>
+                android:id="@+id/TxtContrasena"/>
         <TextView
                 android:text="@string/txtiniciar_sesion"
                 android:layout_width="match_parent"
@@ -63,6 +63,7 @@
                 android:id="@+id/textView" android:textAlignment="center" android:textSize="36sp"
                 android:fontFamily="sans-serif-black"/>
         <Button
+                android:onClick="login"
                 android:text="@string/entrar"
                 android:contentDescription="@string/txtiniciar_sesion"
                 android:translationY="270sp"
@@ -72,7 +73,7 @@
 
     </FrameLayout>
     <Button
-            android:onClick="RegistroGanado"
+            android:onClick="registrarse"
             android:text="@string/btnregistro"
             android:layout_width="135dp"
             android:layout_height="47dp"

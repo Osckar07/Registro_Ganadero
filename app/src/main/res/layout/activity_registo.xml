@@ -46,7 +46,7 @@
                     tools:targetApi="O"
                     android:hint="@string/TxtNombreRegistro"
                     android:ems="10"
-                    android:id="@+id/TxtNombreR" android:importantForAutofill="no"/>
+                    android:id="@+id/TxtNombre" android:importantForAutofill="no"/>
         </LinearLayout>
         <EditText
                 android:layout_width="293dp"
@@ -56,7 +56,7 @@
                 android:hint="@string/TxtApellidoRegistro"
                 android:inputType="textPersonName"
                 android:ems="10"
-                android:id="@+id/TxtApellidoR" android:importantForAutofill="no" tools:targetApi="o"/>
+                android:id="@+id/TxtApellido" android:importantForAutofill="no" tools:targetApi="o"/>
         <EditText
                 android:layout_width="293dp"
                 android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
                 android:hint="@string/TxtCorreoRegistro"
                 android:inputType="textEmailAddress"
                 android:ems="10"
-                android:id="@+id/TxtCorreoElectronicoR" android:importantForAutofill="no" tools:targetApi="o"/>
+                android:id="@+id/TxtCorreo" android:importantForAutofill="no" tools:targetApi="o"/>
         <EditText
                 android:layout_width="293dp"
                 android:layout_height="wrap_content"
@@ -74,13 +74,13 @@
                 android:translationX="50sp"
                 android:inputType="textPassword"
                 android:ems="10"
-                android:id="@+id/TxtContraseñaR" android:importantForAutofill="no" tools:targetApi="o"/>
+                android:id="@+id/TxtContrasena" android:importantForAutofill="no" tools:targetApi="o"/>
         <Button
                 android:onClick="Registro"
                 android:text="@string/BtnGuardarRegistro"
                 android:translationY="540sp"
                 android:translationX="100sp"
                 android:layout_width="165dp"
-                android:layout_height="66dp"/>
+                android:layout_height="66dp" android:id="@+id/BtnGuardarRegistro"/>
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

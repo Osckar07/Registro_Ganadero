@@ -59,5 +59,6 @@ class MainActivity : AppCompatActivity() {
         startActivity(Intent(this, Registo::class.java))
     }
 
+
     }
 

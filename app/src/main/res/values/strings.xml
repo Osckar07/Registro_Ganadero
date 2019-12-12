@@ -30,5 +30,7 @@
     <string name="TxtCorreoRegistro">Correo Eletrónico</string>
     <string name="TxtContraseñaRegistro">Contraseña</string>
     <string name="BtnGuardarRegistro">Guardar</string>
+    <string name="BtnAgg">BotonAg</string>
+    <string name="TxtApodo">Apodo</string>
 
 </resources>

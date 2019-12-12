@@ -81,6 +81,15 @@
                 android:ems="10"
                 android:id="@+id/editText3"
                 tools:targetApi="o"/>
-                
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/TxtApodo"
+                android:translationY="60sp"
+                android:inputType="textPersonName"
+                android:text="@string/TxtApodo"
+                android:ems="10"
+                android:id="@+id/editText" android:importantForAutofill="no" tools:targetApi="o"/>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

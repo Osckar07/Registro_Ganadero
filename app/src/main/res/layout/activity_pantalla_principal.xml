@@ -14,7 +14,8 @@
             android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent" android:contentDescription="@string/imagen2"
-            android:background="#0C0A0A"/>
+            android:background="#0C0A0A" app:layout_constraintHorizontal_bias="0.851"
+            app:layout_constraintVertical_bias="0.564"/>
     <FrameLayout
             android:layout_width="413dp"
             android:layout_height="65dp"
@@ -22,7 +23,7 @@
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintVertical_bias="0.0">
+            app:layout_constraintVertical_bias="0.0" android:id="@+id/frameLayout2">
 
         <TextView
                 android:text="@string/ctrganadero"
@@ -31,12 +32,20 @@
                 android:layout_height="38dp" android:id="@+id/textView2" android:textAlignment="center"
                 android:lineSpacingExtra="200dp" android:textSize="18sp" android:fontFamily="sans-serif-black"
                 android:textStyle="bold"/>
-        <ImageView
-                android:onClick="registrarg"
-                android:layout_width="68dp"
-                android:translationX="210sp"
-                android:translationY="5sp"
-                android:layout_height="47dp" app:srcCompat="@drawable/vacamas" android:id="@+id/imageView6"
-                android:contentDescription="@string/vacamas2"/>
+        <ImageButton
+
+                android:layout_width="63dp"
+                android:translationY="1sp"
+                android:translationX="230sp"
+                android:layout_height="65dp" app:srcCompat="@drawable/vacamas" android:id="@+id/imageButton"
+                android:scaleType="fitCenter" android:contentDescription="@string/BtnAgg"
+                android:backgroundTint="#E2D9D9"/>
     </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="386dp"
+            android:layout_height="197dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

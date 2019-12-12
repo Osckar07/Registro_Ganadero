@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "573762593455",
+    "firebase_url": "https://registro-ganadero-17761.firebaseio.com",
+    "project_id": "registro-ganadero-17761",
+    "storage_bucket": "registro-ganadero-17761.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573762593455:android:e7315f5c87fb854d1fea5a",
+        "android_client_info": {
+          "package_name": "com.example.registro_ganadero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573762593455-5bf5p4nkt16bt0qqutd3sh7rerj3kcng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.registro_ganadero",
+            "certificate_hash": "49abb2cfa07482182b0456b3da9ce7de0de72777"
+          }
+        },
+        {
+          "client_id": "573762593455-97fcghv7o38et4qq47acmp67mu1odgak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPbaYNYQRLtf59EDgcKk_8bZruaycBnwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573762593455-97fcghv7o38et4qq47acmp67mu1odgak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

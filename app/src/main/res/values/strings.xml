@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Registro_Ganadero</string>
+    <string name="fondo">fondo_Pantalla</string>
+    <string name="logo">logo_Pantalla</string>
+    <string name="Framelayaut">Flayaut</string>
+    <string name="textocorreo">Correo Electrónico</string>
+    <string name="textocontraseña">Contraseña</string>
+    <string name="txtiniciar_sesion">INICIAR SESIÓN</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="imgpantalla">imagenpantalla</string>
+    <string name="scroll">Scroll</string>
+    <string name="icoimagen">icoimagen1</string>
+    <string name="imagen2">imagenn2</string>
+    <string name="ctrganadero">CONTRÓL GANADERO</string>
+    <string name="agregarvaca">Vacamas</string>
+    <string name="imagenico">vacamas</string>
+    <string name="btnimag">vacamas2</string>
+    <string name="vacamas">vacamasprincipal</string>
+    <string name="txtagregaganado">AGREGAR DATOS DEL GANADO</string>
+    <string name="txtcamara1">Foto del Ganado</string>
+    <string name="txtcamara2">Foto del Fierro</string>
+    <string name="todo">TODO</string>
+    <string name="nombre">Nombre</string>
+    <string name="vacamas2">Vacamas2</string>
+    <string name="btnregistro">REGISTRARSE</string>
+    <string name="imagenfondo">imagenfondo2</string>
+    <string name="txtregistro">Registro de Usuario</string>
+    <string name="TxtNombreRegistro">Nombre</string>
+    <string name="TxtApellidoRegistro">Apellido</string>
+    <string name="TxtCorreoRegistro">Correo Eletrónico</string>
+    <string name="TxtContraseñaRegistro">Contraseña</string>
+    <string name="BtnGuardarRegistro">Guardar</string>
+
+</resources>
